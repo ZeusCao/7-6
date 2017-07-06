@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0008C371F0E3BAB0042D3EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0008C361F0E3BAB0042D3EF /* AppDelegate.swift */; };
+		C0008C391F0E3BAB0042D3EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0008C381F0E3BAB0042D3EF /* ViewController.swift */; };
+		C0008C3C1F0E3BAB0042D3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0008C3A1F0E3BAB0042D3EF /* Main.storyboard */; };
+		C0008C3E1F0E3BAB0042D3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0008C3D1F0E3BAB0042D3EF /* Assets.xcassets */; };
+		C0008C411F0E3BAB0042D3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0008C3F1F0E3BAB0042D3EF /* LaunchScreen.storyboard */; };
+		C0008C4C1F0E3BAB0042D3EF /* __6_swift______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0008C4B1F0E3BAB0042D3EF /* __6_swift______Tests.swift */; };
+		C0008C571F0E3BAB0042D3EF /* __6_swift______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0008C561F0E3BAB0042D3EF /* __6_swift______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0008C481F0E3BAB0042D3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0008C2B1F0E3BAB0042D3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0008C321F0E3BAB0042D3EF;
+			remoteInfo = "7-6-swift实现循环引用";
+		};
+		C0008C531F0E3BAB0042D3EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0008C2B1F0E3BAB0042D3EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0008C321F0E3BAB0042D3EF;
+			remoteInfo = "7-6-swift实现循环引用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0008C331F0E3BAB0042D3EF /* 7-6-swift实现循环引用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7-6-swift实现循环引用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0008C361F0E3BAB0042D3EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0008C381F0E3BAB0042D3EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0008C3B1F0E3BAB0042D3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0008C3D1F0E3BAB0042D3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0008C401F0E3BAB0042D3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0008C421F0E3BAB0042D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0008C471F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7-6-swift实现循环引用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0008C4B1F0E3BAB0042D3EF /* __6_swift______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__6_swift______Tests.swift"; sourceTree = "<group>"; };
+		C0008C4D1F0E3BAB0042D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0008C521F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7-6-swift实现循环引用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0008C561F0E3BAB0042D3EF /* __6_swift______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "__6_swift______UITests.swift"; sourceTree = "<group>"; };
+		C0008C581F0E3BAB0042D3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0008C301F0E3BAB0042D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0008C441F0E3BAB0042D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0008C4F1F0E3BAB0042D3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0008C2A1F0E3BAB0042D3EF = {
+			isa = PBXGroup;
+			children = (
+				C0008C351F0E3BAB0042D3EF /* 7-6-swift实现循环引用 */,
+				C0008C4A1F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests */,
+				C0008C551F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests */,
+				C0008C341F0E3BAB0042D3EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0008C341F0E3BAB0042D3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0008C331F0E3BAB0042D3EF /* 7-6-swift实现循环引用.app */,
+				C0008C471F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests.xctest */,
+				C0008C521F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0008C351F0E3BAB0042D3EF /* 7-6-swift实现循环引用 */ = {
+			isa = PBXGroup;
+			children = (
+				C0008C361F0E3BAB0042D3EF /* AppDelegate.swift */,
+				C0008C381F0E3BAB0042D3EF /* ViewController.swift */,
+				C0008C3A1F0E3BAB0042D3EF /* Main.storyboard */,
+				C0008C3D1F0E3BAB0042D3EF /* Assets.xcassets */,
+				C0008C3F1F0E3BAB0042D3EF /* LaunchScreen.storyboard */,
+				C0008C421F0E3BAB0042D3EF /* Info.plist */,
+			);
+			path = "7-6-swift实现循环引用";
+			sourceTree = "<group>";
+		};
+		C0008C4A1F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0008C4B1F0E3BAB0042D3EF /* __6_swift______Tests.swift */,
+				C0008C4D1F0E3BAB0042D3EF /* Info.plist */,
+			);
+			path = "7-6-swift实现循环引用Tests";
+			sourceTree = "<group>";
+		};
+		C0008C551F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0008C561F0E3BAB0042D3EF /* __6_swift______UITests.swift */,
+				C0008C581F0E3BAB0042D3EF /* Info.plist */,
+			);
+			path = "7-6-swift实现循环引用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0008C321F0E3BAB0042D3EF /* 7-6-swift实现循环引用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0008C5B1F0E3BAB0042D3EF /* Build configuration list for PBXNativeTarget "7-6-swift实现循环引用" */;
+			buildPhases = (
+				C0008C2F1F0E3BAB0042D3EF /* Sources */,
+				C0008C301F0E3BAB0042D3EF /* Frameworks */,
+				C0008C311F0E3BAB0042D3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7-6-swift实现循环引用";
+			productName = "7-6-swift实现循环引用";
+			productReference = C0008C331F0E3BAB0042D3EF /* 7-6-swift实现循环引用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0008C461F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0008C5E1F0E3BAB0042D3EF /* Build configuration list for PBXNativeTarget "7-6-swift实现循环引用Tests" */;
+			buildPhases = (
+				C0008C431F0E3BAB0042D3EF /* Sources */,
+				C0008C441F0E3BAB0042D3EF /* Frameworks */,
+				C0008C451F0E3BAB0042D3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0008C491F0E3BAB0042D3EF /* PBXTargetDependency */,
+			);
+			name = "7-6-swift实现循环引用Tests";
+			productName = "7-6-swift实现循环引用Tests";
+			productReference = C0008C471F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0008C511F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0008C611F0E3BAB0042D3EF /* Build configuration list for PBXNativeTarget "7-6-swift实现循环引用UITests" */;
+			buildPhases = (
+				C0008C4E1F0E3BAB0042D3EF /* Sources */,
+				C0008C4F1F0E3BAB0042D3EF /* Frameworks */,
+				C0008C501F0E3BAB0042D3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0008C541F0E3BAB0042D3EF /* PBXTargetDependency */,
+			);
+			name = "7-6-swift实现循环引用UITests";
+			productName = "7-6-swift实现循环引用UITests";
+			productReference = C0008C521F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0008C2B1F0E3BAB0042D3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Zeus;
+				TargetAttributes = {
+					C0008C321F0E3BAB0042D3EF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C0008C461F0E3BAB0042D3EF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0008C321F0E3BAB0042D3EF;
+					};
+					C0008C511F0E3BAB0042D3EF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0008C321F0E3BAB0042D3EF;
+					};
+				};
+			};
+			buildConfigurationList = C0008C2E1F0E3BAB0042D3EF /* Build configuration list for PBXProject "7-6-swift实现循环引用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0008C2A1F0E3BAB0042D3EF;
+			productRefGroup = C0008C341F0E3BAB0042D3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0008C321F0E3BAB0042D3EF /* 7-6-swift实现循环引用 */,
+				C0008C461F0E3BAB0042D3EF /* 7-6-swift实现循环引用Tests */,
+				C0008C511F0E3BAB0042D3EF /* 7-6-swift实现循环引用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0008C311F0E3BAB0042D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0008C411F0E3BAB0042D3EF /* LaunchScreen.storyboard in Resources */,
+				C0008C3E1F0E3BAB0042D3EF /* Assets.xcassets in Resources */,
+				C0008C3C1F0E3BAB0042D3EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0008C451F0E3BAB0042D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0008C501F0E3BAB0042D3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0008C2F1F0E3BAB0042D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0008C391F0E3BAB0042D3EF /* ViewController.swift in Sources */,
+				C0008C371F0E3BAB0042D3EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0008C431F0E3BAB0042D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0008C4C1F0E3BAB0042D3EF /* __6_swift______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0008C4E1F0E3BAB0042D3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0008C571F0E3BAB0042D3EF /* __6_swift______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0008C491F0E3BAB0042D3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0008C321F0E3BAB0042D3EF /* 7-6-swift实现循环引用 */;
+			targetProxy = C0008C481F0E3BAB0042D3EF /* PBXContainerItemProxy */;
+		};
+		C0008C541F0E3BAB0042D3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0008C321F0E3BAB0042D3EF /* 7-6-swift实现循环引用 */;
+			targetProxy = C0008C531F0E3BAB0042D3EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0008C3A1F0E3BAB0042D3EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0008C3B1F0E3BAB0042D3EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0008C3F1F0E3BAB0042D3EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0008C401F0E3BAB0042D3EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0008C591F0E3BAB0042D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0008C5A1F0E3BAB0042D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0008C5C1F0E3BAB0042D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "7-6-swift实现循环引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--6-swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0008C5D1F0E3BAB0042D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "7-6-swift实现循环引用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--6-swift------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0008C5F1F0E3BAB0042D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "7-6-swift实现循环引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--6-swift------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7-6-swift实现循环引用.app/7-6-swift实现循环引用";
+			};
+			name = Debug;
+		};
+		C0008C601F0E3BAB0042D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "7-6-swift实现循环引用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--6-swift------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/7-6-swift实现循环引用.app/7-6-swift实现循环引用";
+			};
+			name = Release;
+		};
+		C0008C621F0E3BAB0042D3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "7-6-swift实现循环引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--6-swift------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "7-6-swift实现循环引用";
+			};
+			name = Debug;
+		};
+		C0008C631F0E3BAB0042D3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "7-6-swift实现循环引用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.Zeus.--6-swift------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "7-6-swift实现循环引用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0008C2E1F0E3BAB0042D3EF /* Build configuration list for PBXProject "7-6-swift实现循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0008C591F0E3BAB0042D3EF /* Debug */,
+				C0008C5A1F0E3BAB0042D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0008C5B1F0E3BAB0042D3EF /* Build configuration list for PBXNativeTarget "7-6-swift实现循环引用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0008C5C1F0E3BAB0042D3EF /* Debug */,
+				C0008C5D1F0E3BAB0042D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0008C5E1F0E3BAB0042D3EF /* Build configuration list for PBXNativeTarget "7-6-swift实现循环引用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0008C5F1F0E3BAB0042D3EF /* Debug */,
+				C0008C601F0E3BAB0042D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0008C611F0E3BAB0042D3EF /* Build configuration list for PBXNativeTarget "7-6-swift实现循环引用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0008C621F0E3BAB0042D3EF /* Debug */,
+				C0008C631F0E3BAB0042D3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0008C2B1F0E3BAB0042D3EF /* Project object */;
+}
